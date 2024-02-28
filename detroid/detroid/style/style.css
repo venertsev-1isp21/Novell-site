@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "CentryGothic"; 
+  src: url("assets/fonts/centurygothic.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "CentryGothic_bold"; 
+  src: url("assets/fonts/centurygothic_bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+.warning{
+	display: none;
+}
+
+.wrapper{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header{
+	background-color: rgba(20, 34, 56, 0.6);
+	border: 2px solid black;
+	border-radius: 7px;
+	color: #D5D5D7;
+	width: 80%;
+	height: 100px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 3px solid black;
+	text-align: center;
+}
+
+.header_text{
+	height: 20px;
+	color: #D4D6D8;
+	font-family: "CentryGothic_bold";
+	font-size: 1.5em;
+	text-align: center;
+	padding: 10px;
+}
+
+.content{
+	background-color: rgba(20, 34, 56, 0.6);
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 15px;
+	width: 80%;
+	height: 500px;
+	border:3px solid #101416;
+	border-radius:10px;
+}
+.content_info{
+	color: #D4D6D8;
+	font-family: "CentryGothic";
+	font-size: 19px;
+	text-align: center;
+}
+
+.content_info_2{
+	color: #D4D6D8;
+	font-family: "CentryGothic_bold";
+	font-size: 55px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.body{
+	background-image: url("assets/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.link_style{
+	color: #D4D6D8;
+	text-decoration: none;
+}
+
+@media (orientation: portrait) {
+  .warning{
+	  color: black;
+	  display: block;
+	  background-color: #091120;
+	  width: 80%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  color: #D4D6D8;
+	  font-family: "CentryGothic_bold";
+	  font-size: 55px;
+	  margin-top: 100px;
+	  text-align: center;
+  }
+  .body{
+  	background-image: url();
+	background-color: #091120;
+  }
+  .wrapper{
+  	display: none;
+  }
+  
+  .header{
+	display: none;
+  }
+  
+  .header_text{
+  	display: none;
+  }
+  
+  .content{
+  	display: none;
+  }
+  .content_info{
+  	display: none;
+  }
+  
+  .content_info_2{
+  	display: none;
+  }
+}
