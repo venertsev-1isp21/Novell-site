@@ -5,6 +5,13 @@
   font-weight: normal; 
 } 
 
+@font-face {
+  font-family: "CentryGothic"; 
+  src: url("assets/fonts/centurygothic.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
 body{
 	margin: 0;
 	font-family: 'CentryGothic_bold';
@@ -65,6 +72,7 @@ body{
 }
 
 .pickture{
+	width: calc(100% - 100px);
 	max-height: 100vh;
 	overflow: hidden;
 }
@@ -85,4 +93,12 @@ body{
 p{
 	color: #D6E8EB;
 	padding-left: 15px;
+}
+
+a{
+	color: #D6E8EB;
+	text-decoration: none;
+}
+a:hover{
+	color: #7b8c8f;
 }

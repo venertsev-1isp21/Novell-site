@@ -70,6 +70,8 @@
 	text-align: center;
 }
 
+
+
 .body{
 	background-image: url("assets/bg.jpg");
 	background-repeat: no-repeat;
@@ -79,6 +81,9 @@
 .link_style{
 	color: #D4D6D8;
 	text-decoration: none;
+}
+.link_style:hover{
+	color: #7b8c8f;
 }
 
 @media (orientation: portrait) {
